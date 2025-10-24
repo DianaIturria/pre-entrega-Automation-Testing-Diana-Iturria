@@ -5,8 +5,10 @@ def test_inventory(login_in_driver):
     try:
         driver = login_in_driver
 
+        # Validar título
         assert driver.title == "Swag Labs"
 
+        # Validar presencia de productos
         products = driver.find_elements(By.CLASS_NAME, "inventory_item")
         assert len(products) > 0, "No hay productos visibles en la pagina"
     except Exception as e:
