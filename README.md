@@ -38,19 +38,18 @@ pytest tests/test_inventory.py -v
 ## Funcionalidades Implementadas
 
 1.- **Automatización de Login Caso de éxito con credenciales válidas**
-Caso de fallo con credenciales inválidas
+- Caso de fallo con credenciales inválidas
 
 2.- **Verificación del Catálogo Comprobación del título de la página**
-Verificación de presencia de productos
-Validación de elementos de la interfaz (menú, filtros, etc.)
+- Verificación de presencia de productos
+- Validación de elementos de la interfaz (menú, filtros, etc.)
 
 3.- **Interacción con el Carrito Añadir producto al carrito**
-Verificar que el contador se incremente
-Navegar al carrito
-Comprobar que el producto añadido aparezca correctamente
+- Verificar que el contador se incremente
+- Navegar al carrito
+- Comprobar que el producto añadido aparezca correctamente
 
 4.- **Cierre de Sesión Verificar que el usuario pueda cerrar sesión correctamente**
-
 
 ## Autor: **Diana Iturria**
 
