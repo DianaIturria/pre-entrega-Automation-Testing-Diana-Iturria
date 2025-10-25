@@ -36,7 +36,7 @@ python3 -m pytest --html=report.html --self-contained-html -v
 
 - Ejecutar un test específico:
 ```
-pytest tests/test_inventory.py -v
+python3 -m pytest tests/test_inventory.py -v
 ```
 
 - Ejecutar usando el script run_test.py:
