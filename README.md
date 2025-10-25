@@ -19,9 +19,9 @@ El objetivo es automatizar los siguientes flujos en la aplicación SauceDemo:
 - **Git/GitHub** - Sistema de control de versiones y compartir el código.
 
 ## Instalar Dependencias
-(Nota: en algunos sistemas como Mac, puede ser necesario usar pip3 en lugar de pip)
+(Nota: en algunos sistemas como Windows, puede ser necesario usar pip en lugar de pip3)
 
-pip install pytest pytest-html selenium
+pip3 install pytest pytest-html selenium
 
 Instalar ChromeDriver (solo en macOS):
 brew install chromedriver
@@ -31,12 +31,17 @@ En Windows o Linux, se recomienda descargar ChromeDriver compatible con la versi
 ## Cómo ejecutar las pruebas
 - Ejecutar todos los tests con reporte HTML:
 ```
-pytest -v --html=reports/report.html --self-contained-html
+python3 -m pytest --html=report.html --self-contained-html -v
 ```
 
 - Ejecutar un test específico:
 ```
 pytest tests/test_inventory.py -v
+```
+
+- Ejecutar usando el script run_test.py:
+```
+python3 run_test.py
 ```
 
 ## Funcionalidades Implementadas
