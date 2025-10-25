@@ -35,7 +35,6 @@ pytest -v --html=reports/report.html --self-contained-html
 - Ejecutar un test específico:
 pytest tests/test_inventory.py -v
 
-
 ## Funcionalidades Implementadas
 
 1.- **Automatización de Login Caso de éxito con credenciales válidas**
@@ -53,8 +52,7 @@ Comprobar que el producto añadido aparezca correctamente
 4.- **Cierre de Sesión Verificar que el usuario pueda cerrar sesión correctamente**
 
 
-## Autor:
-**Diana Iturria**
+## Autor: **Diana Iturria**
 
 ## Notas 
 Este proyecto fue desarrollado como pre-entrega para el curso de Automatización de Testing de Talento Tech. Todas las pruebas están diseñadas para funcionar con el sitio web SauceDemo en su versión actual.
