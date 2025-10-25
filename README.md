@@ -53,7 +53,8 @@ Comprobar que el producto añadido aparezca correctamente
 4.- **Cierre de Sesión Verificar que el usuario pueda cerrar sesión correctamente**
 
 
-👤 Autor: Diana Iturria
+## Autor:
+**Diana Iturria**
 
 ## Notas 
 Este proyecto fue desarrollado como pre-entrega para el curso de Automatización de Testing de Talento Tech. Todas las pruebas están diseñadas para funcionar con el sitio web SauceDemo en su versión actual.
