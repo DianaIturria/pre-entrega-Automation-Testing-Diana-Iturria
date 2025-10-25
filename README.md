@@ -32,10 +32,12 @@ En Windows o Linux, se recomienda descargar ChromeDriver compatible con la versi
 - Ejecutar todos los tests con reporte HTML:
 ```
 pytest -v --html=reports/report.html --self-contained-html
+```
 
 - Ejecutar un test específico:
 ```
 pytest tests/test_inventory.py -v
+```
 
 ## Funcionalidades Implementadas
 
