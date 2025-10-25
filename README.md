@@ -28,11 +28,13 @@ brew install chromedriver
 
 En Windows o Linux, se recomienda descargar ChromeDriver compatible con la versión de Chrome desde el sitio oficial o usar webdriver-manager en Python.
 
-# Cómo ejecutar las pruebas
+## Cómo ejecutar las pruebas
 - Ejecutar todos los tests con reporte HTML:
+```
 pytest -v --html=reports/report.html --self-contained-html
 
 - Ejecutar un test específico:
+```
 pytest tests/test_inventory.py -v
 
 ## Funcionalidades Implementadas
